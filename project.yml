@@ -10,9 +10,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -75.83
-  - 45.4771
-  - 15
+  - -75.8537
+  - 45.5093
+  - 16
 description: Winter Wonderland Gatineau
 format: "png8:m=h:c=128"
 interactivity_layer: ''
@@ -46,11 +46,12 @@ layers:
 maxzoom: 21
 minzoom: 0
 name: Winter Wonderland Gatineau
-source: "mapbox:///mapbox.mapbox-terrain-v2,sharkins.19wcow29,mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-terrain-v2,sharkins.19wcow29,mapbox.mapbox-streets-v5,sharkins.njowp14i"
 styles: 
   - style.mss
   - road.mss
   - label.mss
   - poi.mss
   - nordic.mss
+  - parking.mss
 template: ''

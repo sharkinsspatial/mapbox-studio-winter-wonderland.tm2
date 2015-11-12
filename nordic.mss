@@ -46,3 +46,6 @@
     [class='main']['mapnik::geometry_type'=2][osm_id=9973389] {::fill{line-opacity: 0} ::case{line-opacity: 0}}
     [class='main']['mapnik::geometry_type'=2][osm_id=323287545] {::fill{line-opacity: 0} ::case{line-opacity: 0}}
 }
+#road_label {
+ 
+}

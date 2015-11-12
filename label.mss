@@ -631,6 +631,22 @@
   [type='piste'] { text-fill: lighten(#558,20); }
   [type='piste'][zoom>=15] { text-fill: lighten(#558,10); }
   [type='piste'][zoom>=18] { text-fill: #558; }
+  //Hide Camp Fortune piste labels
+  [osm_id=51340708] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340693] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340715] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340716] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340700] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340698] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340688] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340689] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340695] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=52108323] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340697] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340702] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id=51340701] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id= 51340714] {text-name: ''; text-face-name: @sans_bold;}
+  [osm_id= 51340713] {text-name: ''; text-face-name: @sans_bold;}
 }
 
 
