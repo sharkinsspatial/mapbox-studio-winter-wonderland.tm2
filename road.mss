@@ -192,7 +192,7 @@
       [type='piste'] {
         line-color: #6a55aa;
         line-dasharray: 4,2;
-        line-width: 0.8;
+        line-width: 0;
       }
       [type='trail'] {
         line-color: #987;
@@ -203,7 +203,7 @@
         line-dasharray: 2,3;
       }
       [zoom>=15] { line-width: 1.2; }
-      [zoom>=16] { line-width: 0; }
+      [zoom>=16] { line-width: 1.5; }
       [type='piste'][zoom>=15] { line-width: 0; }
       [type='piste'][zoom>=16] { line-width: 0; }
     }
