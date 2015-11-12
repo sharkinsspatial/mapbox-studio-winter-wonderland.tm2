@@ -53,4 +53,12 @@
     - -106.01471900939941
   tags: 
     - userbookmark
-  index: 5
+  index: 6
+- place_name: Pontiac, Quebec, Canada
+  zoom: 11
+  center: 
+    - 45.60058738537025
+    - -75.98556518554688
+  tags: 
+    - userbookmark
+  index: 7

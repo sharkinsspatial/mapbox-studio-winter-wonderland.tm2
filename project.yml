@@ -1,7 +1,7 @@
 _prefs: 
   baselayer: ''
   print: true
-  saveCenter: false
+  saveCenter: true
 _properties: {}
 attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
 bounds: 
@@ -10,10 +10,10 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 0
-  - 20
-  - 2
-description: Mapbox Outdoors - Winter Wonderland
+  - -75.847
+  - 45.5204
+  - 16
+description: Winter Wonderland Gatineau
 format: "png8:m=h:c=128"
 interactivity_layer: ''
 layers: 
@@ -31,6 +31,7 @@ layers:
   - road
   - bridge
   - admin
+  - original
   - country_label_line
   - country_label
   - marine_label
@@ -44,11 +45,12 @@ layers:
   - contour.label
 maxzoom: 21
 minzoom: 0
-name: Winter Wonderland
-source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5"
+name: Winter Wonderland Gatineau
+source: "mapbox:///mapbox.mapbox-terrain-v2,sharkins.19wcow29,mapbox.mapbox-streets-v5"
 styles: 
   - style.mss
   - road.mss
   - label.mss
   - poi.mss
+  - nordic.mss
 template: ''
