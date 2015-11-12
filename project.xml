@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-75.847,45.5204,16</Parameter>
+  <Parameter name="center">-75.8681,45.4956,16</Parameter>
   <Parameter name="description"><![CDATA[Winter Wonderland Gatineau]]></Parameter>
   <Parameter name="format">png8:m=h:c=128</Parameter>
   <Parameter name="maxzoom">21</Parameter>
@@ -774,24 +774,24 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke="#6a55aa" stroke-dasharray="4, 2" stroke-width="0.8" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#6a55aa" stroke-dasharray="4, 2" stroke-width="0.8" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'other')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#bbbbaa" stroke-dasharray="2, 3" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#bbbbaa" stroke-dasharray="2, 3" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -808,7 +808,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'trail')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -825,7 +825,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'mtb')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#448888" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#448888" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -842,7 +842,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'cycleway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#448888" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#448888" stroke-dasharray="2, 1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -859,7 +859,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'hiking')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -876,7 +876,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'path')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -893,7 +893,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'footway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#bbbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#bbbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -910,7 +910,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([type] != 'steps') and ([mapnik::geometry_type] = 2)</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1490,24 +1490,24 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke="#6a55aa" stroke-dasharray="4, 2" stroke-width="0.8" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#6a55aa" stroke-dasharray="4, 2" stroke-width="0.8" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'other')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#bbbbaa" stroke-dasharray="2, 3" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#bbbbaa" stroke-dasharray="2, 3" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1524,7 +1524,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'trail')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1541,7 +1541,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'mtb')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#448888" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#448888" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1558,7 +1558,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'cycleway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#448888" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#448888" stroke-dasharray="2, 1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1575,7 +1575,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'hiking')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1592,7 +1592,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'path')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1609,7 +1609,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'footway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#bbbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#bbbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -1626,7 +1626,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([type] != 'steps') and ([mapnik::geometry_type] = 2)</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3108,24 +3108,24 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#6a55aa" stroke-dasharray="4, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'piste')</Filter>
-    <LineSymbolizer stroke="#6a55aa" stroke-dasharray="4, 2" stroke-width="0.8" stroke-opacity="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#6a55aa" stroke-dasharray="4, 2" stroke-width="0.8" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'other')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#bbbbaa" stroke-dasharray="2, 3" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#bbbbaa" stroke-dasharray="2, 3" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3142,7 +3142,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'trail')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3159,7 +3159,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'mtb')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#448888" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#448888" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3176,7 +3176,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'cycleway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#448888" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#448888" stroke-dasharray="2, 1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3193,7 +3193,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'hiking')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3210,7 +3210,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'path')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#998877" stroke-dasharray="6, 2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3227,7 +3227,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([mapnik::geometry_type] = 2) and ([type] = 'footway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#bbbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke="#bbbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -3244,7 +3244,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([class] = 'path') and ([type] != 'steps') and ([mapnik::geometry_type] = 2)</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -4133,26 +4133,92 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>admin</StyleName>  </Layer>
 
-<Style name="original" filter-mode="first">
+<Style name="original-path" filter-mode="first">
+  <Rule>
+    <Filter>([piste:grooming] = 'backcountry') and ([piste:difficulty] = 'expert')</Filter>
+    <LineSymbolizer stroke-dasharray="4, 2" stroke="#e94d38" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'backcountry') and ([piste:difficulty] = 'advanced')</Filter>
+    <LineSymbolizer stroke-dasharray="4, 2" stroke="#e94d38" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'backcountry') and ([piste:difficulty] = 'intermediate')</Filter>
+    <LineSymbolizer stroke-dasharray="4, 2" stroke="#00689e" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'backcountry') and ([piste:difficulty] = 'easy')</Filter>
+    <LineSymbolizer stroke-dasharray="4, 2" stroke="#68a926" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'backcountry')</Filter>
+    <LineSymbolizer stroke-dasharray="4, 2" stroke="#000000" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'classic') and ([piste:difficulty] = 'expert')</Filter>
+    <LineSymbolizer stroke-dasharray="10, 3, 2, 3" stroke="#e94d38" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'classic') and ([piste:difficulty] = 'advanced')</Filter>
+    <LineSymbolizer stroke-dasharray="10, 3, 2, 3" stroke="#e94d38" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'classic') and ([piste:difficulty] = 'intermediate')</Filter>
+    <LineSymbolizer stroke-dasharray="10, 3, 2, 3" stroke="#00689e" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'classic') and ([piste:difficulty] = 'easy')</Filter>
+    <LineSymbolizer stroke-dasharray="10, 3, 2, 3" stroke="#68a926" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:grooming] = 'classic')</Filter>
+    <LineSymbolizer stroke-dasharray="10, 3, 2, 3" stroke="#000000" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:difficulty] = 'expert')</Filter>
+    <LineSymbolizer stroke="#e94d38" stroke-width="1.5" />
+  </Rule>
   <Rule>
     <Filter>([piste:difficulty] = 'advanced')</Filter>
-    <LineSymbolizer stroke="#e94d38" stroke-width="3" />
+    <LineSymbolizer stroke="#e94d38" stroke-width="1.5" />
   </Rule>
   <Rule>
     <Filter>([piste:difficulty] = 'intermediate')</Filter>
-    <LineSymbolizer stroke="#00689e" stroke-width="3" />
+    <LineSymbolizer stroke="#00689e" stroke-width="1.5" />
   </Rule>
   <Rule>
     <Filter>([piste:difficulty] = 'easy')</Filter>
-    <LineSymbolizer stroke="#68a926" stroke-width="3" />
+    <LineSymbolizer stroke="#68a926" stroke-width="1.5" />
   </Rule>
   <Rule>
-    <LineSymbolizer stroke-width="3" />
+    <LineSymbolizer stroke="#000000" stroke-width="1.5" />
+  </Rule>
+</Style>
+<Style name="original-case" filter-mode="first">
+  <Rule>
+    <Filter>([piste:difficulty] = 'expert')</Filter>
+    <LineSymbolizer stroke="#e94d38" stroke-opacity="0.3" stroke-linejoin="round" stroke-width="5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:difficulty] = 'advanced')</Filter>
+    <LineSymbolizer stroke="#e94d38" stroke-opacity="0.3" stroke-linejoin="round" stroke-width="5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:difficulty] = 'intermediate')</Filter>
+    <LineSymbolizer stroke="#00689e" stroke-opacity="0.3" stroke-linejoin="round" stroke-width="5" />
+  </Rule>
+  <Rule>
+    <Filter>([piste:difficulty] = 'easy')</Filter>
+    <LineSymbolizer stroke="#68a926" stroke-opacity="0.3" stroke-linejoin="round" stroke-width="5" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#ffffdd" stroke-opacity="0.3" stroke-linejoin="round" stroke-width="5" />
   </Rule>
 </Style>
 <Layer name="original"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>original</StyleName>  </Layer>
+    <StyleName>original-case</StyleName>
+    <StyleName>original-path</StyleName>  </Layer>
 
 <Style name="country_label_line" filter-mode="first">
   <Rule>

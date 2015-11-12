@@ -10,8 +10,8 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -75.847
-  - 45.5204
+  - -75.8681
+  - 45.4956
   - 16
 description: Winter Wonderland Gatineau
 format: "png8:m=h:c=128"
