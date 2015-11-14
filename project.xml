@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-75.8537,45.5093,16</Parameter>
+  <Parameter name="center">-75.9267,45.525,15</Parameter>
   <Parameter name="description"><![CDATA[Winter Wonderland Gatineau]]></Parameter>
   <Parameter name="format">png8:m=h:c=128</Parameter>
   <Parameter name="maxzoom">21</Parameter>
@@ -4657,6 +4657,33 @@
   </Rule>
 </Style>
 <Style name="original" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([amenity] = 'shelter')</Filter>
+    <TextSymbolizer size="14" wrap-width="140" fontset-name="fontset-0" fill="#555555" halo-fill="#fafafa" halo-radius="1" halo-rasterizer="fast" dy="12" line-spacing="-4" wrap-before="true" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/campsite-12.svg" height="20" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([amenity] = 'shelter')</Filter>
+    <TextSymbolizer size="12" wrap-width="130" fontset-name="fontset-0" fill="#555555" halo-fill="#fafafa" halo-radius="1" halo-rasterizer="fast" dy="12" line-spacing="-4" wrap-before="true" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/campsite-12.svg" height="20" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([amenity] = 'shelter')</Filter>
+    <TextSymbolizer size="11" wrap-width="120" fontset-name="fontset-0" fill="#555555" halo-fill="#fafafa" halo-radius="1" halo-rasterizer="fast" dy="12" line-spacing="-4" wrap-before="true" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/campsite-12.svg" height="20" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([amenity] = 'shelter')</Filter>
+    <TextSymbolizer fontset-name="fontset-0" fill="#555555" halo-fill="#fafafa" halo-radius="1" halo-rasterizer="fast" dy="12" line-spacing="-4" wrap-width="80" wrap-before="true" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/campsite-12.svg" height="20" />
+  </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([amenity] = 'parking')</Filter>
