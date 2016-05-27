@@ -29,38 +29,6 @@ Map {
   background-color: @land;
 }
 
-// Landcover //
-
-#landcover {
-  [class='wood'] {
-  [zoom>=4] { polygon-fill: lighten(@wood,10); }
-  [zoom>=8] {
-    polygon-fill: transparent;
-    polygon-pattern-file: url(img/wood_12.png);
-    }
-  [zoom>=17] {
-    polygon-fill: transparent;
-    polygon-pattern-file: url(img/wood_18.png);
-    }
-  }
-  [zoom>=4] {
-  [class='scrub'] { polygon-fill: lighten(@scrub,26); }
-  [class='grass'] { polygon-fill: @land; }
-  [class='crop'] { polygon-fill: @land; }
-  [class='snow'] { polygon-fill: @snow; }
-  // fade out stronger classes at high zooms,
-  // let more detailed OSM data take over a bit:
-  [class='wood'][zoom>=14],
-  [class='scrub'][zoom>=15],
-  [class='grass'][zoom>=16] {
-    [zoom>=14] { polygon-opacity: 0.8; }
-    [zoom>=15] { polygon-opacity: 0.6; }
-    [zoom>=16] { polygon-opacity: 0.4; }
-    [zoom>=17] { polygon-opacity: 0.2; }
-  }
-  }
-}
-
 // Landuse areas //
 
 #landuse {
