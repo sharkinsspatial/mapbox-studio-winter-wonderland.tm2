@@ -13,6 +13,7 @@
       ['@relations'=~'.*intermediate.*']{line-color: @intermediate;}
       ['@relations'=~'.*advanced.*']{line-color: @advanced;}
       ['@relations'=~'.*expert.*']{line-color: @advanced;}
+      [zoom<12] {line-width: 0;}
       [zoom>=14] { line-width: 3; }
       [zoom>=15] { line-width: 5; }
       [zoom>=16] { line-width: 6; }
@@ -30,6 +31,7 @@
       line-width: 2;
       ['piste:grooming'='classic']{line-dasharray: 10, 3, 2, 3;}
       ['piste:grooming'='backcountry']{line-dasharray: 4, 2;}
+      [zoom<12] {line-width: 0;}
       [zoom>=15] { line-width: 1.5; }
       [zoom>=16] { line-width: 1.7; }
     }

@@ -625,8 +625,10 @@
   text-halo-radius: 2;
   text-halo-rasterizer: fast;
   text-min-distance: 200; // only for labels with the same name
-  [zoom>=16] { text-size: 12; }
-  [zoom>=18] { text-size: 14; }
+  [zoom>=14] { text-size: 12; }
+  [zoom>=15] { text-size: 15; }
+  [zoom>=16] { text-size: 17; }
+  [zoom>=18] { text-size: 19; }
   [class='aerialway'] { text-fill: #765; }
   [type='piste'] { text-fill: lighten(#558,20); }
   [type='piste'][zoom>=15] { text-fill: lighten(#558,10); }

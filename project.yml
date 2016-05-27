@@ -1,5 +1,6 @@
 _prefs: 
   baselayer: ''
+  mapid: sharkins.69e17c44
   print: true
   saveCenter: true
 _properties: {}
@@ -10,11 +11,11 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -75.9267
-  - 45.525
-  - 15
+  - -75.8577
+  - 45.5088
+  - 13
 description: Winter Wonderland Gatineau
-format: "png8:m=h:c=128"
+format: "png8:m=h:c=64"
 interactivity_layer: ''
 layers: 
   - landcover
@@ -44,9 +45,9 @@ layers:
   - housenum_label
   - contour.label
 maxzoom: 21
-minzoom: 0
+minzoom: 11
 name: Winter Wonderland Gatineau
-source: "mapbox:///mapbox.mapbox-terrain-v2,sharkins.19wcow29,mapbox.mapbox-streets-v5,sharkins.njowp14i"
+source: "mapbox:///mapbox.mapbox-terrain-v2,sharkins.njowp14i,sharkins.19wcow29,mapbox.mapbox-streets-v5"
 styles: 
   - style.mss
   - road.mss
