@@ -1,5 +1,5 @@
 @sans_bold: "Open Sans Bold","Arial Unicode MS Regular";
-#original {
+#parking_shelters {
   [amenity='parking']{ 
       [zoom>=14] { 
       text-name: [name];
